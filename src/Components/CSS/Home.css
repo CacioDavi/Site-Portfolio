@@ -1,0 +1,17 @@
+div{
+    margin: 10px 0;
+    text-align: center;
+}
+
+#img {
+    margin: 2%;
+}
+
+#p-ap{
+    text-align: justify;
+    padding: 1% 30%;
+}
+
+h1, h3{
+    margin: 0.5% 0;
+}

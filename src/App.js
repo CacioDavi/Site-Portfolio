@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Pages/Home";
-import Portifolio from "./Components/Pages/Portifolio";
-import Contatos from "./Components/Pages/Contatos";
-import Sobre from "./Components/Pages/Sobre";
+import Home from "./Components/Components/Pages/Home";
+import Portifolio from "./Components/Components/Pages/Portifolio";
+import Contatos from "./Components/Components/Pages/Contatos";
+import Sobre from "./Components/Components/Pages/Sobre";
 
 function App() {
 

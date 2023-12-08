@@ -1,5 +1,5 @@
-import "./CSS/MenuButtons.css";
 import { useState } from "react";
+import "../CSS/MenuButtons.css";
 
 function MenuButtons({ desativar }) {
   const [disable, SetActive] = useState("Home");
@@ -10,7 +10,7 @@ function MenuButtons({ desativar }) {
   }else{}
 
   return (
-    <div>
+    <nav>
       <ul id="topbarbuttons">
         <li className={disable === "Home" ? "active" : "inativo"}>
           <a href="/">
@@ -29,7 +29,7 @@ function MenuButtons({ desativar }) {
           <a href="/about">SOBRE</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 
