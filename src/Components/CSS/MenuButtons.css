@@ -1,8 +1,14 @@
 nav{
+  --var-width: 2vmin;
+  user-zoom: fixed;
   background-color: white;
-  margin: 0 30% 10px;
+  z-index: 2;
+  margin: 0 10vmin;
   text-align: center;
   position: fixed;
+  left: var(--var-width);
+  right: var(--var-width);
+
 
   border-radius: 10px;
 }
@@ -10,23 +16,16 @@ nav{
 #topbarbuttons {
   display: flex;
   justify-content: center;
-  width: 100%;
+  padding: 0 1%;
+
+  user-zoom: fixed;
 
   /* margin: 0 30% 0; */
+  font-size: 2.5vmin;
 
-  
-
-  font-size: 80%;
 }
-
-#topbarbuttons ul {
-  width: 100%;
-}
-
 #topbarbuttons li {
   list-style: none;
-  text-align: center;
-  align-items: center;
   width: 100%;
 }
 
@@ -34,6 +33,8 @@ nav{
   position: relative;
 
   color: black;
+  user-zoom: fixed;
+
 
   text-decoration: none;
   display: flex;
@@ -47,12 +48,14 @@ nav{
 }
 
 .inativo a:hover {
+  user-zoom: fixed;
   user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
 }
 
 .inativo a:hover::after{
+  user-zoom: fixed;
   content: " ";
   width: 0%;
   height: 2px;
@@ -109,5 +112,11 @@ nav{
   }
   to{
     width: 0%;
+  }
+}
+
+@media (min-width: 800px) {
+  nav{
+    --var-width: 25vmin;
   }
 }

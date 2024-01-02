@@ -1,17 +1,50 @@
-div{
-    margin: 10px 0;
-    text-align: center;
+:root{
+    --font-size-h1: 3vw;
+    --font-size-h3: 1.8vw;
+    --font-size-def: 2vw;
+    --max-width-p: 40vw;
+
+    --img-size: 40vw;
 }
 
 #img {
-    margin: 2%;
+    margin: 3%;
+    width: var(--img-size);
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 #p-ap{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
     text-align: justify;
-    padding: 1% 30%;
+    text-wrap: wrap;
+    max-width: var(--max-width-p);
+    font-size: var(--font-size-def);
+    font-weight: 600;
+    
 }
 
-h1, h3{
-    margin: 0.5% 0;
+h1{
+    text-transform: capitalize;
+    font-size: var(--font-size-h1);
 }
+h3{
+    text-transform: capitalize;
+    font-size: var(--font-size-h3);
+}
+
+@media (max-width: 600px){
+    :root{
+        --font-size-h1: 5.2vw;
+        --font-size-h3: 3.5vw;
+        --font-size-def: 4vw;
+        --max-width-p: 65vw;
+
+        --img-size: 65vw;
+    }
+}
+
+
+

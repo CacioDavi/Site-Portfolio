@@ -1,0 +1,167 @@
+/* Classe Principal */
+
+.btn {
+    color: black;
+
+    user-zoom: fixed;
+
+    font-size: 4vmin;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: fontAwesome;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+    list-style: none;
+
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: all .5s ease 0s; 
+}
+
+.btn :hover {
+    cursor: pointer;
+    user-zoom: fixed;
+}
+
+.btn :not(:hover){
+    transition: all .4s ease 0s; 
+    user-zoom: fixed;
+}
+
+ /* Tipos de Botões */
+
+.btn_type1 {
+    display: block;
+    margin: 1% auto;
+    padding: 1rem;
+    width: 35vw;
+}
+
+.btn_type1 span {
+    display: inline-block;
+    color: white;
+    position: relative;
+
+    transition: all .5s ease;
+}
+
+.btn_type1 span ion-icon{
+    --icon-buttontype-1-scale: 3vw;
+    --icon-buttontype-1-pos: -2.5px;
+
+    display: inline-block;
+    position: absolute;
+    top: var(--icon-buttontype-1-pos);
+    left: 0;
+    top: var(--icon-buttontype-1-pos);
+    opacity: 0;
+
+    font-size: var(--icon-buttontype-1-scale);
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+.btn_type1:hover span{
+    padding-left: 2.5rem;
+
+}
+
+
+
+.btn_type1:hover span ion-icon {
+    left: 0;
+    opacity: 1;
+    
+}
+
+
+/* -------------------------------------- */
+
+.btn_type2{
+    flex: 1; /* Ocupa todo o espaço disponível */
+    padding: 10px;
+    margin: 0; /* Remove as margens entre os botões */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+    text-align: center;
+    align-items: center;
+
+    min-width: 20vw;
+
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn_type2:hover {
+    box-shadow: 0px 1px 5px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(101%);
+}
+
+.btn_type2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background: rgba(200, 200, 200, 0.4);
+    margin: 0 auto;
+
+    height: 100%;
+    flex: 1;
+}
+
+.btn_type2 a div{
+    flex: 1;
+    max-height: 25vh;
+    max-width: 25vw;
+    background: black;
+    padding: 10px 0;
+    margin: 0 auto;
+
+    align-content: center;
+    vertical-align: auto;
+}
+
+.btn_type2 a div img{
+    padding: 0.5rem;
+}
+
+.btn_type2 a h2{
+    margin: 10px auto;
+    font-size: 1.6vw;
+    max-width: 25vw;
+    overflow-wrap: break-word;
+}
+
+.btn_type2 a p{
+    margin: 0 auto;
+    font-size: 1vw;
+    max-width: 25vw;
+    overflow-wrap: break-word;
+}
+
+ /* Botões Personalizados */
+
+#btn-whats{
+    background:rgb(0, 201, 0);
+}
+
+#btn-linkedin {
+    background: rgb(0,90,215);
+}
+
+#btn-git{
+    background-color: rgb(20, 20, 20);
+}
+
+ /* Media Queries */
+@media (max-width: 600px){
+    .btn_type1 span ion-icon{
+        --icon-buttontype-1-scale: 7.2vw;
+        --icon-buttontype-1-pos: -4px;
+    }
+}

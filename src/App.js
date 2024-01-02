@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}  />
@@ -18,6 +18,8 @@ function App() {
           <Route path="/contact" element={<Contatos />} />
         </Routes>
       </BrowserRouter>
+
+
     </div>
   );
 }

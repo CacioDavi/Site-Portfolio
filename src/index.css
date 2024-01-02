@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-zoom: fixed;
+}
+
+
+body html{
+  height: 100%;
+  user-zoom: fixed;
+
+}
+
+body div{
+  margin: 10px 0;
+  text-align: center;
 }
 
 body {
@@ -11,8 +24,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: url("../Assets/background_light.jpg") no-repeat top center/cover;
-  height: 100%;
+  background: url("../Assets/background_light.jpg") no-repeat top center/cover fixed;
+  /* background: url("../Assets/background_light.jpg") no-repeat center center fixed; */
+  /* background-size: cover; */
+  height: 100vh;
 
 }
 

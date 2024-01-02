@@ -4,7 +4,10 @@ function Sobre() {
     return (
         <div>
     <MenuButtons desativar="Sobre"/>
-            <h1>Sobre</h1>
+
+    <div style={{padding: "8vh 0 0"}}>
+        <h1>Sobre</h1>
+    </div>
         </div>
     )
 }
