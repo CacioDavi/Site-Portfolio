@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter basename={"/app"}>
+      <BrowserRouter basename={"/"}>
         <Routes>
           <Route path="/" element={<Home />}  />
           <Route path="port" element={<Portifolio />} />
