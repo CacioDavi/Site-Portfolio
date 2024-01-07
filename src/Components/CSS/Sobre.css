@@ -1,0 +1,9 @@
+#p-sobre {
+    max-width: 40vw;
+    padding: 2vh 0;
+    font-weight: 500;
+    overflow-wrap: break-word;
+    font-size: 1.7vw;
+    text-align: justify;
+    margin: 0 auto;
+}

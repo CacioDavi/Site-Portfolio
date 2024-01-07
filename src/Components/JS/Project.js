@@ -2,6 +2,7 @@ import "../CSS/Btn.css";
 import javascript from "../../Imagens/JavaScript-logo.jpg"
 import python from "../../Imagens/python_logo.png"
 
+
 function Project({titulo, descricao, linguagem}) {
     function img(l) {
 

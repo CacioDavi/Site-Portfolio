@@ -1,5 +1,5 @@
 import MenuButtons from "../MenuButtons";
-// import Project from "../../JS/Project";
+import Project from "../../JS/Project";
 import "../../CSS/Portfolio.css";
 import "../../CSS/Btn.css";
 

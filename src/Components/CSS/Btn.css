@@ -50,8 +50,8 @@
 }
 
 .btn_type1 span ion-icon{
-    --icon-buttontype-1-scale: 3vw;
-    --icon-buttontype-1-pos: -2.5px;
+    --icon-buttontype-1-scale: 2.5vw;
+    --icon-buttontype-1-pos: -1.5px;
 
     display: inline-block;
     position: absolute;
