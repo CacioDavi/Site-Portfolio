@@ -48,7 +48,7 @@ function Contatos() {
                     </li>
 
                     <li>
-                        <a href="linkedin.com/in/cacios/" target="_blank" rel="noreferrer" id="btn-linkedin" className="btn btn_type1">
+                        <a href="https://www.linkedin.com/in/cacios/" target="_blank" rel="noreferrer" id="btn-linkedin" className="btn btn_type1">
                     
                             <span>
                                 <ion-icon ion-icon name="logo-linkedin"></ion-icon>
